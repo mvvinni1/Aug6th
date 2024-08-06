@@ -42,7 +42,7 @@ public class SubmitOrdertest extends BaseTest {
 		ConfirmationPage confirmationPage = checkOutPage.SubmitOrder();
 		String confirmMessage = confirmationPage.getConfirmationMessage();
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
-		Assert.assertFalse(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+	
 
 	}
 
